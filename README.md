@@ -9,7 +9,7 @@ $ !Download mnist train data from web site!
 $ cd jw_mnist
 $ python3 -m venv venv
 $ source venv/bin/activate
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 $ jupyter notebook
 ```
 
