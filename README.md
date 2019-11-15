@@ -5,7 +5,11 @@
 Study example
 
 ```
-$ cd neural_network
+$ !Download mnist train data from web site!
+$ cd jw_mnist
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install requirements.txt
 $ jupyter notebook
 ```
 
@@ -27,7 +31,7 @@ $ jupyter notebook
 $ cd neural_network
 ```
 
-2. Execute jupyter notebook
+2. Execute jupyter notebook and load notebook file
 
 ```
 $ jupyter notebook
